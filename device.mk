@@ -517,10 +517,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
 
-# miracast props
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.debug.wfd.enable=1﻿
-
 # Disable sdcardfs
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.sdcardfs=false
